@@ -4,9 +4,9 @@ include 'connect.php';
 include 'header.php';
 
 $sql = "SELECT  *
-   FROM categories
-   INNER JOIN topics
-   ON categories.cat_id = topics.topics_cat;";
+FROM categories
+INNER JOIN topics
+ON categories.cat_id = topics.topic_cat;";
 
 
 $result = mysqli_query($conn, $sql);
