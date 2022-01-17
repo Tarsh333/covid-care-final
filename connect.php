@@ -1,9 +1,9 @@
 <?php
 //connect.php
-$server = 'remotemysql.com';
-$username   = 'Ka2agp4afb';
-$password   = 'dJf7tXzbk6';
-$database   = 'Ka2agp4afb';
+$server = 'db4free.net';
+$username   = 'tarsh_iiitdmj';
+$password   = 'Steins;Gate';
+$database   = 'covid_care';
 
 // Create connection
 $conn = new mysqli($server, $username, $password);
