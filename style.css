@@ -325,3 +325,14 @@ table a{
     padding: 8px 3px;
   }
 }
+#piechart{
+  overflow: hidden;
+  width:100vw;
+}
+@media screen and (max-width:570px) {
+  #piechart{
+    position: relative;
+    right: 50px;
+    overflow: auto;
+  }
+}
